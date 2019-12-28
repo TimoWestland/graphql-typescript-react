@@ -19,7 +19,12 @@ export const LaunchList: React.FC<Props> = ({ data, onIdChange }) => (
         data.launches.map(
           (launch, i) =>
             !!launch && (
-              <li key={i} className="launch-list__item" onClick={() => onIdChange(launch.flight_number!)}>
+              <li
+                key={i}
+                data-testid="launch-list-item"
+                className="launch-list__item"
+                onClick={() => onIdChange(launch.flight_number!)}
+              >
                 {launch.mission_name} {launch.launch_year}
               </li>
             )

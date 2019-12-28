@@ -1,6 +1,6 @@
 import './App.css'
 
-import React from 'react'
+import * as React from 'react'
 import LaunchList from './components/LaunchList'
 import LaunchProfile from './components/LaunchProfile'
 

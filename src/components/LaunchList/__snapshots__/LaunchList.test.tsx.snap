@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LaunchList should match snapshot 1`] = `
+<div>
+  <div
+    class="launch-list"
+  >
+    <h3>
+      Launches
+    </h3>
+    <ol
+      class="launch-list__list"
+    >
+      <li
+        class="launch-list__item"
+        data-testid="launch-list-item"
+      >
+        some name
+         
+        2019
+      </li>
+      <li
+        class="launch-list__item"
+        data-testid="launch-list-item"
+      >
+        some name
+         
+        2019
+      </li>
+      <li
+        class="launch-list__item"
+        data-testid="launch-list-item"
+      >
+        some name
+         
+        2019
+      </li>
+    </ol>
+  </div>
+</div>
+`;

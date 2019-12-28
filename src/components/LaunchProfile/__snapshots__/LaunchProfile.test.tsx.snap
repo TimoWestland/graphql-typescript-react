@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LaunchProfile should match snapshot 1`] = `
+<div>
+  <div
+    class="launch-profile"
+  >
+    <div
+      class="launch-profile__status"
+    >
+      <span>
+        Flight 
+        1
+        : 
+      </span>
+      <span
+        class="launch-profile__success"
+      >
+        Success
+      </span>
+    </div>
+    <h1
+      class="launch-profile__title"
+    >
+      Some name
+       (Rocket man | Elton John)
+    </h1>
+    <p
+      class="launch-profile__description"
+    >
+      Some more information about this launch.
+    </p>
+    <div
+      class="launch-profile__image-list"
+    >
+      <img
+        alt="yolo"
+        class="launch-profile__image"
+        src="/some/src1.png"
+      />
+      <img
+        alt="yolo"
+        class="launch-profile__image"
+        src="/some/src2.png"
+      />
+    </div>
+  </div>
+</div>
+`;
